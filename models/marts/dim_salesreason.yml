@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_salesreason
+    columns:
+      - name: salesreasonid
+        description: The primary key of the salesreason
+        tests:
+          - unique
+          - not_null

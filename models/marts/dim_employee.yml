@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_employee
+    columns:
+      - name: businessentityid
+        description: The primary key of the employee
+        tests:
+          - unique
+          - not_null

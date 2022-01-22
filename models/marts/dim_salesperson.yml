@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_salesperson
+    columns:
+      - name: businessentityid
+        description: The primary key of the salesperson
+        tests:
+          - unique
+          - not_null

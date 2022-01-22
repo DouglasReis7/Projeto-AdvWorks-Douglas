@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: adv_works_etl
+    description: This is a replica of the Postgres database used by our systems.
+    tables:
+      - name: address
+        description: addresses of our employees, customers, etc.
+      - name: stateprovince
+        description: States and/or province of the given address.
+      - name: countryregion
+        description: Region of the country of the given address.
+      - name: person
+        description: Personal data of employees, customers, etc.
+      - name: employee
+        description: Personal data of employees.
+      - name: customer
+        description: Personal data of customers.
+      - name: salesperson
+        description: Bussiness data of the sales employees.
+      - name: salesorderheader
+        description: Main informations of the orders received.
+      - name: salesorderheadersalesreason
+        description: Connections between our orders and their reasons.
+      - name: salesreason
+        description: List of possible reasons for the orders.
+      - name: salesorderdetail
+        description: Specific informations about each of the orders.
+      - name: product
+        description: Details about each of our products.
+      - name: creditcard
+        description: Details about the credit cards used for the orders
+      - name: personcreditcard
+        description: Connections between the credit cards and their owners.     
+            

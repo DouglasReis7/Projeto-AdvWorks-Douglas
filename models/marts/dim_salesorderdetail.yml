@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_salesorderdetail
+    columns:
+      - name: salesorderdetailid
+        description: The primary key of the salesorderdetail
+        tests:
+          - unique
+          - not_null

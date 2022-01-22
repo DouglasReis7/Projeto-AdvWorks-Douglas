@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_personcreditcard
+    columns:
+      - name: creditcardid
+        description: The primary key of the creditcard
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_person
+    columns:
+      - name: businessentityid
+        description: The primary key of the person
+        tests:
+          - unique
+          - not_null

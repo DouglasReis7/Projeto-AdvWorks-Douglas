@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_salesorderheader
+    columns:
+      - name: salesorderid
+        description: The primary key of the salesorder
+        tests:
+          - unique
+          - not_null

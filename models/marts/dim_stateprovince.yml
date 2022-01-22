@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_stateprovince
+    columns:
+      - name: stateprovinceid
+        description: The primary key of the stateprovince
+        tests:
+          - unique
+          - not_null

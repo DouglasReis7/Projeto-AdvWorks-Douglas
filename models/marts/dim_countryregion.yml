@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_countryregion
+    columns:
+      - name: countryregioncode
+        description: The primary key of the countryregion
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_salesorderheadersalesreason
+    columns:
+      - name: salesreasonid
+        description: The primary key of the salesorderheadersalesreason
+        tests:
+          - unique
+          - not_null
